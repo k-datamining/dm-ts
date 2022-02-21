@@ -1,0 +1,58 @@
+# Book settings
+title: 時系列
+author: KDM(K's Data Mining)
+#logo: logo.png
+
+# Force re-execution of notebooks on each build.
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: ml-tips.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/k-datamining/dm-book # Online location of your book
+  path_to_book: docs # Optional path to your book, relative to the repository root
+  branch: main # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+html:
+  use_issues_button: true
+  use_repository_button: true
+  extra_navbar: |
+    <div class="extra-nav">
+      <li class="ttl">リンク</li>
+      <li class="itm"><a href="https://www.youtube.com/channel/UCFy3VBvZBeE9bN0F2sxF8rg/">youtube</a></li>
+      <li class="itm"><a href="https://twitter.com/ks_study_ml">twitter</a></li>
+      <li class="itm"><a href="https://k-datamining.github.io/dm-book/intro.html">K_DM</a></li>
+      <li class="itm"><a href="https://k-datamining.github.io/dm-book-prep/intro.html">データ前処理の仕方</a></li>
+    </div>
+  extra_footer: |
+    <div class="social-buttons">
+      <li>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </li>
+      <li>
+        <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+      </li>
+    </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SV8ZDQK64S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SV8ZDQK64S');
+    </script>
+
+sphinx:
+  config:
+    html_show_copyright: false
+    language: ja

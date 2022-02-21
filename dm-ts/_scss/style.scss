@@ -1,0 +1,91 @@
+﻿body {
+    font-family: "M PLUS 1p";
+    background-color: #ced4da;
+}
+
+main {
+    background-color: #fff;
+}
+
+/* navの調整 */
+div.section {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 1.3em;
+    }
+}
+
+button.toggle-button.toggle-button-hidden:before {
+    content: "非表示となっているコードを表示する" !important;
+    position: absolute;
+    font-size: .8em;
+    left: -21.0em !important;
+    width: 20em !important;
+    top: 0.05em !important;
+    color: #bbb !important;
+    bottom: .4em;
+}
+
+ul.bd-sidenav:nth-child(n + 2) {
+    margin-left: 1em;
+}
+
+/* binderを非表示にする */
+div.dropdown-buttons-trigger {
+    i.fa-rocket {
+        display: none;
+    }
+
+    a.binder-button {
+        display: none;
+    }
+}
+
+div#site-navigation {
+    background: #ced4da;
+}
+
+footer {
+    div.container p:nth-child(1) {
+        display: none;
+    }
+}
+
+div.social-buttons {
+    li {
+        display: inline;
+    }
+}
+
+
+div.extra-nav {
+
+    li {
+        list-style: none;
+        text-align: left;
+    }
+
+    li.ttl {
+        font-weight: bold;
+    }
+
+    li.itm {
+        margin-left: 1em;
+    }
+}
+
+div.hint {
+    p.admonition-title {
+        color: hsla(0, 100%, 100%, 0.0);
+    }
+
+    p.admonition-title::before {
+        content: "ドキュメントへのリンク" !important;
+        width: 12em !important;
+    }
+}

@@ -1,0 +1,13 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: 時系列
+  chapters:
+  - file: ts/shape/mplfinanceを使ってみる.ipynb
+  - file: ts/shape/RSIをプロットしよう.ipynb
+- caption: 参考文献・補足資料
+  chapters:
+  - file: references.md
