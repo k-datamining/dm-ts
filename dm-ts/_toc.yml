@@ -4,10 +4,15 @@
 format: jb-book
 root: intro
 parts:
-- caption: 時系列
+- caption: グラフをプロットする
   chapters:
-  - file: ts/shape/mplfinanceを使ってみる.ipynb
-  - file: ts/shape/RSIをプロットしよう.ipynb
+  - file: ts/plot/001_mplfinance.ipynb
+  - file: ts/plot/002_RSI.ipynb
+  - file: ts/plot/003_Compare.ipynb
+  - file: ts/plot/004_ETF_and_k-Year_U.S._Bond_Yield.ipynb
+- caption: 波形を比較する
+  chapters:
+  - file: ts/shape/001_DTW.ipynb
 - caption: 参考文献・補足資料
   chapters:
   - file: references.md

@@ -249,6 +249,17 @@ optional = false
 python-versions = ">=2.7"
 
 [[package]]
+name = "fastdtw"
+version = "0.3.4"
+description = "Dynamic Time Warping (DTW) algorithm with an O(N) time and memory complexity."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = "*"
+
+[[package]]
 name = "flake8"
 version = "4.0.1"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -1812,17 +1823,6 @@ develop = ["cython (>=0.29.22)"]
 docs = ["sphinx", "nbconvert", "jupyter-client", "ipykernel", "matplotlib", "nbformat", "numpydoc", "pandas-datareader"]
 
 [[package]]
-name = "ta-lib"
-version = "0.4.24"
-description = "Python wrapper for TA-Lib"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-numpy = "*"
-
-[[package]]
 name = "terminado"
 version = "0.12.1"
 description = "Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
@@ -2002,7 +2002,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "b07edc9804820ec24b6053677c2e5a4c8c2178937eaea14ba685aa524d7c039b"
+content-hash = "eab362c5686409029a1f8378fffb30f635dd6752a5abe77a4842f1233c6658fe"
 
 [metadata.files]
 alabaster = [
@@ -2168,6 +2168,10 @@ docutils = [
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
     {file = "entrypoints-0.3.tar.gz", hash = "sha256:c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"},
+]
+fastdtw = [
+    {file = "fastdtw-0.3.4-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:28918c163dce9e736e09252a02073fce712bc4c7aa18f2a45d882cca84da2dbb"},
+    {file = "fastdtw-0.3.4.tar.gz", hash = "sha256:2350fa6ec36bcad186eaf81f46eff35181baf04e324f522de8aeb43d0243f64f"},
 ]
 flake8 = [
     {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},
@@ -3152,9 +3156,6 @@ statsmodels = [
     {file = "statsmodels-0.13.0-cp39-none-win32.whl", hash = "sha256:0cd0448d1f75048b74fc6ff80f0bc912512beba1cc2ebc77e71b3ffbacc3fdba"},
     {file = "statsmodels-0.13.0-cp39-none-win_amd64.whl", hash = "sha256:9fd7fed6e6f810bf0097737af9233c69019e6ef17f1ef469a0cb4c4ea451e8b2"},
     {file = "statsmodels-0.13.0.tar.gz", hash = "sha256:f2efc02011b7240a9e851acd76ab81150a07d35c97021cb0517887539a328f8a"},
-]
-ta-lib = [
-    {file = "TA-Lib-0.4.24.tar.gz", hash = "sha256:9df262312daa0f1a63f281c6a943fe98c8007a2147776c1b43712e04ccede209"},
 ]
 terminado = [
     {file = "terminado-0.12.1-py3-none-any.whl", hash = "sha256:09fdde344324a1c9c6e610ee4ca165c4bb7f5bbf982fceeeb38998a988ef8452"},
