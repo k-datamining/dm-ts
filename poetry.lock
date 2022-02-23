@@ -1804,6 +1804,14 @@ pymysql = ["pymysql (<1)", "pymysql"]
 sqlcipher = ["sqlcipher3-binary"]
 
 [[package]]
+name = "squarify"
+version = "0.4.3"
+description = "Pure Python implementation of the squarify treemap layout algorithm"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "statsmodels"
 version = "0.13.0"
 description = "Statistical computations and models for Python"
@@ -2002,7 +2010,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "eab362c5686409029a1f8378fffb30f635dd6752a5abe77a4842f1233c6658fe"
+content-hash = "52352bb30dbc327766856c38245d1fdfe6dd1b44c80c669453160a3d525c8aa4"
 
 [metadata.files]
 alabaster = [
@@ -3139,6 +3147,10 @@ sqlalchemy = [
     {file = "SQLAlchemy-1.4.25-cp39-cp39-win32.whl", hash = "sha256:6003771ea597346ab1e97f2f58405c6cacbf6a308af3d28a9201a643c0ac7bb3"},
     {file = "SQLAlchemy-1.4.25-cp39-cp39-win_amd64.whl", hash = "sha256:9ebe49c3960aa2219292ea2e5df6acdc425fc828f2f3d50b4cfae1692bcb5f02"},
     {file = "SQLAlchemy-1.4.25.tar.gz", hash = "sha256:1adf3d25e2e33afbcd48cfad8076f9378793be43e7fec3e4334306cac6bec138"},
+]
+squarify = [
+    {file = "squarify-0.4.3-py3-none-any.whl", hash = "sha256:bec7011e0c7f4103fe57a1c16a7c091d9dc1be0f23d774e1c568b748a6f818f6"},
+    {file = "squarify-0.4.3.tar.gz", hash = "sha256:54091f6ad175f7f201f8934574e647ce1b50dedc478c5fd968688eb7d7469f95"},
 ]
 statsmodels = [
     {file = "statsmodels-0.13.0-cp37-cp37m-macosx_10_15_x86_64.whl", hash = "sha256:905bfcedcada6e854f36b70e16e8982e0905268d0317d6a2309f0bf61f602483"},

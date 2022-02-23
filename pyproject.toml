@@ -22,6 +22,7 @@ tqdm = "^4.62.3"
 mplfinance = "^0.12.8-beta.9"
 pandas-datareader = "^0.10.0"
 fastdtw = "^0.3.4"
+squarify = "^0.4.3"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"

@@ -10,6 +10,7 @@ parts:
   - file: ts/plot/002_RSI.ipynb
   - file: ts/plot/003_Compare.ipynb
   - file: ts/plot/004_ETF_and_k-Year_U.S._Bond_Yield.ipynb
+  - file: ts/plot/005_treemap.ipynb
 - caption: 波形を比較する
   chapters:
   - file: ts/shape/001_DTW.ipynb
