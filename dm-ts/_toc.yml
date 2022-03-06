@@ -4,16 +4,17 @@
 format: jb-book
 root: intro
 parts:
-- caption: グラフをプロットする
+- caption: グラフのプロット
   chapters:
   - file: ts/plot/001_mplfinance.ipynb
   - file: ts/plot/002_RSI.ipynb
   - file: ts/plot/003_Compare.ipynb
-  - file: ts/plot/004_ETF_and_k-Year_U.S._Bond_Yield.ipynb
+  - file: ts/plot/004_ETF_and_k-Year_U.S._Bond_Yieldを見る.ipynb
   - file: ts/plot/005_treemap.ipynb
-- caption: 波形を比較する
+- caption: 波形の比較
   chapters:
   - file: ts/shape/001_DTW.ipynb
+  - file: ts/shape/002_derivative-DTW.ipynb
 - caption: 参考文献・補足資料
   chapters:
   - file: references.md
