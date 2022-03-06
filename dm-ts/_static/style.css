@@ -1,7 +1,8 @@
 @charset "UTF-8";
 body {
   font-family: "M PLUS 1p";
-  background-color: #ced4da;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e4e4e4), color-stop(80%, white));
+  background-image: linear-gradient(to top, #e4e4e4 0%, white 80%);
 }
 
 main {
@@ -43,10 +44,6 @@ div.dropdown-buttons-trigger a.binder-button {
   display: none;
 }
 
-div#site-navigation {
-  background: #ced4da;
-}
-
 footer div.container p:nth-child(1) {
   display: none;
 }
@@ -75,5 +72,22 @@ div.hint p.admonition-title {
 div.hint p.admonition-title::before {
   content: "ドキュメントへのリンク" !important;
   width: 12em !important;
+}
+
+#site-navigation {
+  height: 102.5vh !important;
+  overflow-x: hidden !important;
+}
+
+table.dataframe th,
+table.dataframe td {
+  font-size: 0.9em !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+div.social-buttons a.reference {
+  position: relative;
+  top: -6px;
 }
 /*# sourceMappingURL=style.css.map */
