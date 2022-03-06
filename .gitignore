@@ -2,6 +2,9 @@
 example/
 dm-ts/_build
 .vscode/
+dm-ts/ts/shape/data/
+dm-ts/ts/plot/data/
+*.csv
 
 # log
 note.md
