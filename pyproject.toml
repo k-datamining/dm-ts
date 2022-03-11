@@ -24,6 +24,9 @@ pandas-datareader = "^0.10.0"
 fastdtw = "^0.3.4"
 squarify = "^0.4.3"
 tslearn = "^0.5.2"
+h5py = "^3.6.0"
+pmdarima = "^1.8.5"
+dtaidistance = "^2.3.6"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"

@@ -14,7 +14,11 @@ parts:
 - caption: 波形の比較
   chapters:
   - file: ts/shape/001_DTW.ipynb
-  - file: ts/shape/002_derivative-DTW.ipynb
+  - file: ts/shape/002_DTWvsDDTW.ipynb
+  - file: ts/shape/003_DDTW.ipynb
+- caption: クラスタリング
+  chapters:
+  - file: ts/clustering/001-KShape.ipynb
 - caption: 参考文献・補足資料
   chapters:
   - file: references.md
