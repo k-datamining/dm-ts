@@ -27,14 +27,10 @@ html:
   use_issues_button: true
   use_repository_button: true
   extra_navbar: |
+    <div class="margin-div"></div>
     <div class="extra-nav">
-      <!-- <li class="ttl">リンク</li>
-      <li class="itm"><a href="https://www.youtube.com/channel/UCFy3VBvZBeE9bN0F2sxF8rg/">youtube</a></li>
-      <li class="itm"><a href="https://twitter.com/ks_study_ml">twitter</a></li>
-      <li class="itm"><a href="https://k-datamining.github.io/dm-book/intro.html">K_DM</a></li>
-      <li class="itm"><a href="https://k-datamining.github.io/dm-book-metrics/intro.html">各評価指標の見方</a></li>
-      <li class="itm"><a href="https://k-datamining.github.io/dm-book-prep/intro.html">データ前処理の仕方</a></li>
-      -->
+      <li class="social-button"><a href="https://www.youtube.com/channel/UCFy3VBvZBeE9bN0F2sxF8rg?sub_confirmation=1"><img alt="youtube subs" src="https://img.shields.io/youtube/channel/subscribers/UCFy3VBvZBeE9bN0F2sxF8rg?style=social"></a></li>
+      <li class="social-button"><a href="https://twitter.com/intent/follow?screen_name=_K_DM"><img alt="twitter" src="https://img.shields.io/twitter/follow/_K_DM?style=social"/></a></li>
     </div>
   extra_footer: |
     <div class="social-buttons">
@@ -44,10 +40,11 @@ html:
       <li>
         <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
       </li>
-      <li><a class="reference external" href="https://www.youtube.com/channel/UCFy3VBvZBeE9bN0F2sxF8rg/videos"><img alt="youtube subs" src="https://img.shields.io/youtube/channel/subscribers/UCFy3VBvZBeE9bN0F2sxF8rg?style=social"></a></li>
       <li><a class="reference external" href="https://www.python.org/"><img alt="Made with Python3.8" src="https://img.shields.io/badge/Made%20with-Python3.8-4682b4.svg"></a></li>
       <li><a class="reference external" href="https://jupyterbook.org/intro.html"><img alt="Made with jupyter-book" src="https://img.shields.io/badge/Made%20with-jupyterbook-4682b4.svg"></a></li>
     </div>
+    <span class="text">このサイトで掲載されている情報の正確性は保証しません。万一この情報に基づいて被ったいかなる損害についても一切責任を負い兼ねます。また、プライバシーポリシー・お問い合わせに関しましては<a href="https://kdm.hatenablog.jp/privacy-policy"><b>こちら</b></a>をご確認ください。</span>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SV8ZDQK64S"></script>
     <script>
       window.dataLayer = window.dataLayer || [];

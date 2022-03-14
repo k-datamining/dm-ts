@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
   font-family: "M PLUS 1p";
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e4e4e4), color-stop(80%, white));
@@ -48,21 +49,55 @@ footer div.container p:nth-child(1) {
   display: none;
 }
 
-div.social-buttons li {
+div.extra_footer div.social-buttons li {
   display: inline;
 }
 
-div.extra-nav li {
+div.extra_footer span.text {
+  font-size: 0.8em;
+  color: #000;
+}
+
+#site-navigation {
+  height: 102.5vh !important;
+  overflow-x: hidden !important;
+}
+
+#site-navigation div.navbar_extra_footer div.margin-div {
+  height: 50px;
+}
+
+#site-navigation div.navbar_extra_footer div.extra-nav {
+  width: 280px !important;
+  position: fixed !important;
+  bottom: 0 !important;
+  margin-left: -20px !important;
+  margin-bottom: 0 !important;
+  padding: 10px 5px 4px 20px !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white)) !important;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white) !important;
+}
+
+#site-navigation div.navbar_extra_footer div.extra-nav li {
   list-style: none;
   text-align: left;
 }
 
-div.extra-nav li.ttl {
+#site-navigation div.navbar_extra_footer div.extra-nav li.ttl {
   font-weight: bold;
 }
 
-div.extra-nav li.itm {
+#site-navigation div.navbar_extra_footer div.extra-nav li.itm {
   margin-left: 1em;
+}
+
+#site-navigation div.navbar_extra_footer div.extra-nav li.social-button {
+  margin: 0.1em 0.5em 0.5em 0;
+}
+
+#site-navigation div.navbar_extra_footer div.extra-nav li.text {
+  color: #555;
+  font-size: 0.8em;
 }
 
 div.hint p.admonition-title {
@@ -74,11 +109,6 @@ div.hint p.admonition-title::before {
   width: 12em !important;
 }
 
-#site-navigation {
-  height: 102.5vh !important;
-  overflow-x: hidden !important;
-}
-
 table.dataframe th,
 table.dataframe td {
   font-size: 0.9em !important;
@@ -88,6 +118,7 @@ table.dataframe td {
 
 div.social-buttons a.reference {
   position: relative;
-  top: -6px;
+  top: -4px;
 }
+
 /*# sourceMappingURL=style.css.map */
