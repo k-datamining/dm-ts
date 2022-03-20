@@ -20,6 +20,9 @@ parts:
 - caption: クラスタリング
   chapters:
   - file: ts/clustering/001-KShape.ipynb
+- caption: 予測
+  chapters:
+  - file: ts/forecast/001-Prophet.ipynb
 - caption: 参考文献・補足資料
   chapters:
   - file: references.md
