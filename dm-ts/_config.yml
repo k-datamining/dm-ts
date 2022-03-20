@@ -55,6 +55,9 @@ html:
       gtag('config', 'G-SV8ZDQK64S');
     </script>
 
+launch_buttons:
+  binderhub_url: ""
+  colab_url: "https://colab.research.google.com"
 sphinx:
   config:
     html_show_copyright: false

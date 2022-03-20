@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
   font-family: "M PLUS 1p";
   background-image: -webkit-gradient(linear, left bottom, left top, from(#e4e4e4), color-stop(80%, white));
@@ -34,15 +33,6 @@ button.toggle-button.toggle-button-hidden:before {
 
 ul.bd-sidenav:nth-child(n + 2) {
   margin-left: 1em;
-}
-
-/* binderを非表示にする */
-div.dropdown-buttons-trigger i.fa-rocket {
-  display: none;
-}
-
-div.dropdown-buttons-trigger a.binder-button {
-  display: none;
 }
 
 footer div.container p:nth-child(1) {
@@ -120,5 +110,4 @@ div.social-buttons a.reference {
   position: relative;
   top: -4px;
 }
-
 /*# sourceMappingURL=style.css.map */
