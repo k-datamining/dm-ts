@@ -4,6 +4,7 @@ dm-ts/_build
 .vscode/
 dm-ts/ts/shape/data/
 dm-ts/ts/plot/data/
+dm-ts/ts/data/
 *.csv
 
 # log
