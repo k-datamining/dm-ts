@@ -23,6 +23,8 @@ parts:
 - caption: 予測
   chapters:
   - file: ts/forecast/001-Prophet.ipynb
+  - file: ts/forecast/002-Prophetのモデルの中身.ipynb
+  - file: ts/forecast/003-Prophetのパラメータ.ipynb
 - caption: 参考文献・補足資料
   chapters:
   - file: references.md
