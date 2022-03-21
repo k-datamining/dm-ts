@@ -110,4 +110,8 @@ div.social-buttons a.reference {
   position: relative;
   top: -4px;
 }
+
+.MathJax {
+  font-size: 0.9em !important;
+}
 /*# sourceMappingURL=style.css.map */
